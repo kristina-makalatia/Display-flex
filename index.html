@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Display flex</title>
+<head> 
+	<title>Home</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -32,22 +34,22 @@
 		<ul class="social-ul">
 			<li class="social-li"> 
 				<a href="#">
-					<img class="social" src="img/google.svg" alt="google">
+				   <i class="fab fa-facebook-f"></i>
 				</a>
 			</li>
 			<li class="social-li"> 
 				<a href="#">
-					<img class="social" src="img/facebook.svg" alt="google">
+					<i class="fab fa-facebook-f"></i>
 				</a>
 			</li>
 			<li class="social-li"> 
 				<a href="#">
-					<img class="social" src="img/google.svg" alt="google">
+					<i class="fab fa-facebook-f"></i>
 				</a>
 			</li>
 			<li class="social-li active"> 
 				<a href="#">
-					<img class="social" src="img/facebook.svg" alt="google">
+					<i class="fab fa-facebook-f"></i>
 				</a>
 			</li>
 		</ul>
@@ -58,16 +60,14 @@
 		<div class="container">
 			<h3> Featured | view all featured media </h3>
 			<div class="wraper flex">
-
-				<div class="box">
+				<div class="text-image-wraper">
 					<h3> Responsive Web Design </h3>
 					<div class="wraper-box">
 						<img class="box-image" src="img/image2.png" alt="image">
 						<p class="text-test"> approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
 					</div>
 				</div>
-
-				<div class="box">
+				<div class="text-image-wraper">
 					<h3> Responsive Web Design </h3>
 					<div class="wraper-box">
 						<img class="box-image" src="img/image2.png" alt="image">
@@ -77,6 +77,20 @@
 		    </div>
 		</div>
 	</section>
-
+	
+	<section class="blue-bg-video">
+		<div class="container">
+			<h3> Videos | view all videos </h3>
+			<div class="video-wraper">
+				<div class="video">
+					<iframe src="https://www.youtube.com/embed/Ir7J0eEuWgk?autoplay=1"; frameborder="0" allow="accelerometer; autoplay=1"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				 </div>
+				<div class="video">
+					<video controls src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"> </video>
+				 </div>
+			</div>
+		</div>
+	</section>
+ <script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js" integrity="sha384-z9ZOvGHHo21RqN5De4rfJMoAxYpaVoiYhuJXPyVmSs8yn20IE3PmBM534CffwSJI" crossorigin="anonymous"></script>
 </body>
 </html>
